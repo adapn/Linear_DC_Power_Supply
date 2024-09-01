@@ -35,7 +35,7 @@ An RC filter is employed by placing a capacitor across the load resistor, reduci
 A regulator was not used in this design due to the acceptable output voltage range produced by the circuit.
 
 ### Circuit Schematic
-![Circuit Schematic](CIRCUIT_SCHEMATIC.PNG)
+![Circuit Schematic](Circuit_Schematic.PNG)
 
 ### Calculations
 Detailed calculations were performed to determine component values, such as the capacitor size to minimize ripple voltage.
@@ -43,7 +43,7 @@ Detailed calculations were performed to determine component values, such as the 
 ### Expected Performance
 The expected performance includes an average load voltage of approximately 3V with minimal ripple and stable current delivery.
 
-![Expected Performance](EXPECTED_PERFORMANCE.PNG)
+![Expected Performance](Expected_Performance.PNG)
 
 ### Design Trade-offs
 This design balances efficiency and complexity, opting for a full-wave rectifier for higher efficiency at the cost of using more diodes.
@@ -51,7 +51,7 @@ This design balances efficiency and complexity, opting for a full-wave rectifier
 ## Measurement and Analysis
 Measurements confirm that the design meets the required specifications with minor deviations attributed to component tolerances and practical implementation variations.
 
-![Breadboard](BREADBOARD.PNG)
+![Breadboard](Breadboard.PNG)
 
 ## Simulation
 Simulations verify the design under ideal conditions, showing a maximum output voltage of 2.99V and a minimum of 2.95V, fitting within the expected range.
@@ -59,7 +59,7 @@ Simulations verify the design under ideal conditions, showing a maximum output v
 ## Discussion
 The results demonstrate that the designed power supply performs as expected, with slight differences between simulation and real-world measurements due to inherent circuit variations and measurement errors.
 
-![Design Layout](DESIGN_LAYOUT.PNG)
+![Design Layout](Design_Layout.PNG)
 
 ## References
 1. [Difference between Half Wave and Full Wave Rectifier](https://electronicscoach.com/difference-between-half-wave-and-full-wave-rectifier.html#KeyDifferences)
